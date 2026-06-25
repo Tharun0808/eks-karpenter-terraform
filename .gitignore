@@ -1,0 +1,39 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variables (sensitive)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Provider lock file (optional to track)
+.terraform.lock.hcl
+
+# Kubernetes / Helm artifacts
+*.log
+*.tmp
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Python (if used later for scripts)
+__pycache__/
+*.pyc
+
+# Node (if added later)
+node_modules/
+
+# Misc
+.env
